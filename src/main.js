@@ -20,3 +20,7 @@ png.src = pngSrc
 //插入节点
 document.body.appendChild(gif)
 document.body.appendChild(png)
+ const fn = () => {
+     console.log('你好');
+ } 
+ console.log(fn);

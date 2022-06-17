@@ -1,1 +1,0 @@
-(()=>{"use strict";console.log("轮播图逻辑"),console.log("tab切换逻辑")})();
