@@ -35,7 +35,21 @@ module.exports = {
     },
     {
       test:/\.(png|jpg|gif)$/i,
-      type :'asset'
+      type :'asset',
+      generator: {
+        filename:"images/[hash:6][ext]",
+      }
+    },
+    {
+      test:/.(eot|svg|ttf|woff|woff2)$/i,
+      type:"asset/resource",
+      generator:{
+        filename:"images/[hash:6][ext]",
+      }
+    },
+    {
+      test:/\.js$/,
+      use:['babel-loader', ]
     }
   ],
   },

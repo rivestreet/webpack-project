@@ -4,7 +4,7 @@ banner()
 tab()
 import './styles/index.css'
 import './styles/index.less'
-
+import './assets/fonts/iconfont.css'
 //引入图片
 import gifSrc from './assets/1.gif'
 import pngSrc from './assets/logo_small.png'
